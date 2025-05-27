@@ -1,2 +1,1 @@
-let nome = "Hermes";
-console.log(nome);
+console.log("oi")
