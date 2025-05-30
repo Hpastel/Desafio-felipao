@@ -15,5 +15,17 @@ console.log(
 	pokemon[3][0] + " Cadastrado com sucesso. " + 
     " Seu HP após a ultima luta é: " + pokemon [1][3] + 
     ". Está no nivél " + pokemon[0][1] + 
-    ". E é do tipo " + pokemon[1][2] 
+    ". E é do tipo " + pokemon[0][2] 
+)
+console.log(
+	pokemon[1][0] + " Cadastrado com sucesso. " + 
+    " Seu HP após a ultima luta é: " + pokemon [0][3] + 
+    ". Está no nivél " + pokemon[0][1] + 
+    ". E é do tipo " + pokemon[2][2] 
+)
+console.log(
+	pokemon[2][0] + " Cadastrado com sucesso. " + 
+    " Seu HP após a ultima luta é: " + pokemon [2][3] + 
+    ". Está no nivél " + pokemon[1][1] + 
+    ". E é do tipo " + pokemon[3][2] 
 )
