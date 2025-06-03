@@ -6,14 +6,15 @@ for (let i = 0; i < heroi.length; i++) {
     console.log("O herói " + heroi[i] + " está com  " + experiencia [i] + " de experiência e no nível " + nivel[i]);
 }
 
+// Caso sejas o vilão
 heroi = "Batman";
 switch (heroi) {
     case "Superman":
-    console.log("Use kryptonita para derrotar " + heroi + "!");
+    console.log("Use kryptonita para derrotar o " + heroi + "!");
     break;
     
     case "Batman":
-    console.log("Use o medo para derrotar " + heroi + "!");
+    console.log("Use o medo para derrotar o " + heroi + "!");
     break;
 
 }
