@@ -10,13 +10,32 @@ for (let i = 0; i < heroi.length; i++) {
 heroi = "Batman";
 switch (heroi) {
     case "Superman":
-    console.log("Use kryptonita para derrotar o " + heroi + "!");
-    break;
-    
+        console.log("Use kryptonita para derrotar o " + heroi + "!");
+        break;    
     case "Batman":
-    console.log("Use o medo para derrotar o " + heroi + "!");
-    break;
-
+        console.log("Use o medo para derrotar o " + heroi + "!");
+        break;
+    case "Mulher Maravilha":
+        console.log("Use uma Amazona para derrotar a " + heroi + "!");
+        break;
+    case "Flash":
+        console.log("Use uma tartaruga para derrotar o " + heroi + "!");
+        break;
+    case "Aquaman":
+        console.log("Use um peixe frito para derrotar o " + heroi + "!");
+        break;
+    case "Lanterna Verde":
+        console.log("Use uma bijuteria para derrotar o " + heroi + "!");
+        break;
+    case "Ciborgue":
+        console.log("Use uma bateria viciada para derrotar o " + heroi + "!");
+        break;
+    case "Arqueiro Verde":
+        console.log("Use um terremoto para derrotar o " + heroi + "!");
+        break;
+    default:
+        console.log("Herói desconhecido!");
+        break;
 }
 
 
