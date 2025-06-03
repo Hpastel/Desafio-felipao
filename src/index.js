@@ -1,7 +1,7 @@
 let heroi = ["Superman", "Batman", "Mulher Maravilha", "Flash", "Aquaman", "Lanterna Verde", "Ciborgue", "Arqueiro Verde"];
 const nivel = [1000, 1001, 2001, 5001, 7001, 8001, 9001, 10001];
   
-for (let i = 0; contador < heroi.length; i++) {
+for (let i = 0; i < heroi.length; i++) {
     console.log("O herói " + heroi[i] + " está no nível " + nivel [i]);
 }
 
